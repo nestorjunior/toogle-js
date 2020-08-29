@@ -1,3 +1,4 @@
+'use strict';
 
 var toogleButton = function() {
     const checkbox = document.getElementById('checkbox');
@@ -5,7 +6,7 @@ var toogleButton = function() {
 
     checkbox.addEventListener('change', () => {
         body.classList.toggle('dark'); 
-    })
+    });
 
 };
 
