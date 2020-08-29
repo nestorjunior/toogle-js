@@ -1,6 +1,7 @@
-'use strict';
+(function(){
+    'use strict';
 
-var toogleButton = function() {
+    var toogleButton = function() {
     const checkbox = document.getElementById('checkbox');
     const body = document.getElementsByTagName('body')[0];
 
@@ -8,6 +9,7 @@ var toogleButton = function() {
         body.classList.toggle('dark'); 
     });
 
-};
+    };
 
-toogleButton();
+    toogleButton();
+})();
